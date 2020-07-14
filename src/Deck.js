@@ -55,7 +55,7 @@ export default class Deck extends Component {
 					{this.state.deck ? this.state.deck.remaining : "null"}
 				</p>
 				{this.state.drawn.map((card) => (
-					<Card image={card.image} name={card.name} />
+					<Card key={card.id} image={card.image} name={card.name} />
 				))}
 			</div>
 		);
