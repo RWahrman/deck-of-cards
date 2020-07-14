@@ -3,6 +3,8 @@ import axios from "axios";
 
 import Card from "./Card";
 
+import "./Deck.css";
+
 const API_URL = "https://deckofcardsapi.com/api/deck/new/shuffle";
 
 export default class Deck extends Component {
