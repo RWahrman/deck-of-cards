@@ -50,7 +50,7 @@ export default class Deck extends Component {
 			<div>
 				<h1>Card Dealer</h1>
 				<button onClick={this.getCard}>GIMME A CARD!</button>
-				<p>
+				<p style={{ marginBottom: "75px" }}>
 					Cards Remaining:{" "}
 					{this.state.deck ? this.state.deck.remaining : "null"}
 				</p>
